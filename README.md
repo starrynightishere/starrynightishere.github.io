@@ -27,7 +27,6 @@ _Remote | Aug 2024 - Oct 2024_
   - *NLP with Python for Machine Learning* (LinkedIn, 2023)
 
 ## My Projects
-<!-- Include Font Awesome -->
 
 - <i class="fas fa-rocket"></i> **Project 1** - This project is about building rockets
 - <i class="fas fa-laptop-code"></i> **Project 2** - A coding project
