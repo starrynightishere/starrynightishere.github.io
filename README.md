@@ -1,18 +1,12 @@
 
 # Welcome to My GitHub Portfolio! 👋
-![My Picture](https://starrynightishere.github.io/ai-generated-8256537_1920.jpg)
 
 Hi, I'm a **Civil Engineering graduate** who has transitioned into the exciting world of **Artificial Intelligence** and **Software Engineering**. My journey reflects a passion for problem-solving, automation, and leveraging AI to tackle real-world challenges.
 
 ## 👨‍🎓 Education
+_Bachelor of Technology (B.Tech) in Civil Engineering_  | Jabalpur Engineering College, Jabalpur, India (_May 2024_)
 
-**Jabalpur Engineering College**  
-_Bachelor of Technology (B.Tech) in Civil Engineering_  
-📍 **Jabalpur, India**  
-🎓 **Graduation**: May 2024  
-📊 **CGPA**: 7.4 / 10
-
-## 💼 Professional Experience
+## 💼 Work Experience
 
 ### Software Engineering Intern (AI) | Kursaha  
 _Remote | Aug 2024 - Oct 2024_
@@ -23,11 +17,11 @@ _Remote | Aug 2024 - Oct 2024_
 - **Backend Development**: Integrated SMTP email channels into the backend using Java Spring Boot, reducing email delivery time by 30% for 5,000+ users.
 
 ## 🛠️ Skills & Technologies
-
 - **Languages**: Python, Java, C, SQL
 - **Frameworks**: Flask, Django, Java Spring Boot
 - **Tools & Libraries**: PyTorch, Docker, Numpy, Pandas, Matplotlib, Jupyter Notebook, Google Colab, Git
-- **Certifications**: 
+
+## Certifications: 
   - *Data Science Foundations* (LinkedIn, 2023)
   - *NLP with Python for Machine Learning* (LinkedIn, 2023)
 
