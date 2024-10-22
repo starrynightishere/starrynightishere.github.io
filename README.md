@@ -1,5 +1,6 @@
 
 # Welcome to My GitHub Portfolio! 
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 
 Hi, I'm a **Civil Engineering graduate** who has transitioned into the exciting world of **Artificial Intelligence** and **Software Engineering**. My journey reflects a passion for problem-solving, automation, and leveraging AI to tackle real-world challenges.
 
@@ -26,6 +27,7 @@ _Remote | Aug 2024 - Oct 2024_
   - *NLP with Python for Machine Learning* (LinkedIn, 2023)
 
 ## My Projects
+<!-- Include Font Awesome -->
 
 - <i class="fas fa-rocket"></i> **Project 1** - This project is about building rockets
 - <i class="fas fa-laptop-code"></i> **Project 2** - A coding project
