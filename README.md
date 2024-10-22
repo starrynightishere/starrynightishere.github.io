@@ -15,10 +15,10 @@
             color: #333;
         }
         h1, h2, h3 {
-            color: #007acc;
+            color: #2b8a3e;
         }
         a {
-            color: #007acc;
+            color: #2b8a3e;
             text-decoration: none;
         }
         a:hover {
@@ -84,12 +84,21 @@
     <h2>My Projects</h2>
     <div class="projects">
         <div class="project">
-            <i class="fas fa-rocket"></i> <strong>Project 1</strong> - This project is about building rockets.
+            <i class="fas fa-microchip"></i> <strong><a href="https://github.com/yourusername/AudioFeedbackSystem" target="_blank">Audio Feedback System</a></strong> 
+            <p>Developed an audio-to-audio feedback system using Transformers for speech-to-text conversion with 80% accuracy, integrated with real-time grammar correction and gTTS for audio feedback.</p>
         </div>
         <div class="project">
-            <i class="fas fa-laptop-code"></i> <strong>Project 2</strong> - A coding project.
+            <i class="fas fa-tasks"></i> <strong><a href="https://github.com/yourusername/TaskTracker" target="_blank">Task Tracker</a></strong> 
+            <p>Created a web-based application enabling users to log over 100 daily tasks, assigning happiness scores from 1 to 10, revealing a 60% correlation between completed tasks and user-reported happiness.</p>
         </div>
-        <!-- Add more projects here -->
+        <div class="project">
+            <i class="fas fa-vote-yea"></i> <strong><a href="https://github.com/yourusername/VotingSystem" target="_blank">Voting System GUI</a></strong> 
+            <p>Developed a graphical voting application using Tkinter, featuring six cartoon candidates and a NOTA option, allowing real-time voting for over 50 participants with a responsive GUI.</p>
+        </div>
+        <div class="project">
+            <i class="fas fa-image"></i> <strong><a href="https://github.com/yourusername/AestheticScorePrediction" target="_blank">Aesthetic Score Prediction</a></strong> 
+            <p>Built a custom model using Xception architecture to predict aesthetic scores of images, achieving 78% accuracy with transfer learning to reduce training time by 30%.</p>
+        </div>
     </div>
 
     <h2>Currently Learning</h2>
