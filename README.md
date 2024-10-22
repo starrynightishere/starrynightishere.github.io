@@ -114,10 +114,9 @@
     <div class="section">
         <h2>Certifications</h2>
         <ul>
-            <li><a href="https://www.linkedin.com/learning/data-science-foundations" target="_blank">Data Science Foundations</a> (LinkedIn, 2023)</li>
-            <li><a href="https://www.linkedin.com/learning/nlp-with-python-for-machine-learning" target="_blank">NLP with Python for Machine Learning</a> (LinkedIn, 2023)</li>
-            <li><a href="https://www.yourcertificate3.com" target="_blank">Certification 3</a> (Institution, Year)</li>
-            <li><a href="https://www.yourcertificate4.com" target="_blank">Certification 4</a> (Institution, Year)</li>
+            <li><a href="https://www.linkedin.com/learning/certificates/3fde940ccc0ee674778723598d6084cba5761ab68f060784abdc5064f5caa8ea" target="_blank">Data Science Foundations</a> (LinkedIn, 2023)</li>
+            <li><a href="https://www.linkedin.com/learning/certificates/e5632bfeb792e28f56c8283ff376da2cc40e054d20d452f543d27df9460316a3" target="_blank">NLP with Python for Machine Learning</a> (LinkedIn, 2023)</li>
+            <li><a href="https://www.linkedin.com/learning/certificates/a0d42fd1e631ce67e422ed55bbc0f3382246913271a0290e51d02751ce460e61" target="_blank">Python Essential Training</a> (LinkedIn, 2023)</li>
         </ul>
     </div>
 
@@ -125,20 +124,22 @@
         <h2>My Projects</h2>
         <div class="projects">
             <div class="project">
-                <i class="fas fa-microchip"></i> <strong><a href="https://github.com/yourusername/AudioFeedbackSystem" target="_blank">Audio Feedback System</a></strong> 
-                <p>Developed an audio-to-audio feedback system using Transformers for speech-to-text conversion with 80% accuracy, integrated with real-time grammar correction and gTTS for audio feedback.</p>
+                <i class="fas fa-microchip"></i> <strong><a href="https://github.com/starrynightishere/Audio-Feedback-System-" target="_blank">Audio Feedback System</a></strong> 
+               <p>Designed an innovative audio feedback system that leverages Transformer models for speech recognition. This project enhances user interaction by providing real-time audio feedback, combining accuracy in transcription with engaging auditory responses.</p>
+        </div>
             </div>
             <div class="project">
-                <i class="fas fa-tasks"></i> <strong><a href="https://github.com/yourusername/TaskTracker" target="_blank">Task Tracker</a></strong> 
-                <p>Created a web-based application enabling users to log over 100 daily tasks, assigning happiness scores from 1 to 10, revealing a 60% correlation between completed tasks and user-reported happiness.</p>
+                <i class="fas fa-tasks"></i> <strong><a href="https://github.com/starrynightishere/TaskTracker" target="_blank">Task Tracker</a></strong> 
+                 <p>Created a dynamic web application that enables users to manage daily tasks effectively. By allowing users to assign happiness scores to their completed tasks, the app analyzes patterns in productivity and emotional well-being, promoting a balanced lifestyle.</p>
+        </div>
             </div>
             <div class="project">
-                <i class="fas fa-vote-yea"></i> <strong><a href="https://github.com/yourusername/VotingSystem" target="_blank">Voting System GUI</a></strong> 
-                <p>Developed a graphical voting application using Tkinter, featuring six cartoon candidates and a NOTA option, allowing real-time voting for over 50 participants with a responsive GUI.</p>
+                <i class="fas fa-vote-yea"></i> <strong><a href="https://github.com/starrynightishere/VotingSystem" target="_blank">Voting System GUI</a></strong> 
+                 <p>Developed a user-friendly voting application using Tkinter, featuring whimsical cartoon characters as candidates. The system allows for real-time participation in elections, engaging over 50 users with an intuitive graphical interface that makes voting fun.</p>
             </div>
             <div class="project">
-                <i class="fas fa-image"></i> <strong><a href="https://github.com/yourusername/AestheticScorePrediction" target="_blank">Aesthetic Score Prediction</a></strong> 
-                <p>Built a custom model using Xception architecture to predict aesthetic scores of images, achieving 78% accuracy with transfer learning to reduce training time by 30%.</p>
+                <i class="fas fa-image"></i> <strong><a href="https://github.com/starrynightishere/beautyClassifier" target="_blank">Aesthetic Score Prediction</a></strong> 
+                 <p>Engineered a deep learning model using the Xception architecture to assess the aesthetic appeal of images. This project harnesses transfer learning to achieve a 78% accuracy rate, significantly reducing training times while providing insightful predictions on visual content.</p>
             </div>
         </div>
     </div>
@@ -151,8 +152,8 @@
     <div class="footer">
         <h3>Let’s Connect!</h3>
         <p class="social-links">
-            LinkedIn: <a href="https://www.linkedin.com/in/yourprofile" target="_blank">Your LinkedIn</a><br>
-            Email: <a href="mailto:youremail@gmail.com">youremail@gmail.com</a>
+            LinkedIn: <a href="https://www.linkedin.com/in/anurag-mishra-007724205" target="_blank">LinkedIn</a><br>
+            Email: <a href="mailto:mishraanurag.pro@gmail.com">Email</a>
         </p>
     </div>
 </div>
