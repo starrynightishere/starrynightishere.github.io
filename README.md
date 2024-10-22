@@ -36,7 +36,7 @@ _Remote | Aug 2024 - Oct 2024_
 I’m currently exploring more advanced concepts in AI and working with **Spring Boot** for backend development in Java. Always excited about opportunities that merge AI with practical, real-world applications!
 
 ### Let’s Connect!
-- LinkedIn: [LinkedIn](https://www.linkedin.com/in/anurag-mishra-00724205)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/anurag-mishra-007724205)
 - Email: [email](mishraanurag.pro@gmail.com)
 
  
