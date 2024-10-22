@@ -1,52 +1,49 @@
-# Welcome to My GitHub Page
 
-This page showcases my education, experience, and skills as a Civil Engineering graduate with a specialization in AI and Machine Learning.
+# Welcome to My GitHub Portfolio! 👋
 
-## Education
+Hi, I'm a **Civil Engineering graduate** who has transitioned into the exciting world of **Artificial Intelligence** and **Software Engineering**. My journey reflects a passion for problem-solving, automation, and leveraging AI to tackle real-world challenges.
+
+## 👨‍🎓 Education
 
 **Jabalpur Engineering College**  
-_B.Tech in Civil Engineering_ | Jabalpur, India  
-CGPA: 7.4 / 10 | May 2024
+_Bachelor of Technology (B.Tech) in Civil Engineering_  
+📍 **Jabalpur, India**  
+🎓 **Graduation**: May 2024  
+📊 **CGPA**: 7.4 / 10
 
-### Conferences:
-- IEEE, American Control Conference ACC'24
-- Indian Institute of Science, I-4AM'22
-- Delivered 2 talks
+## 💼 Professional Experience
 
-### Relevant Courses:
-- Linear Algebra
-- Probability & Statistics
-- Machine Learning
-- Neural Networks
-- Data Structures & Algorithms
-- Optimization
-- Differential Equations
-- Database Management Systems
+### Software Engineering Intern (AI) | Kursaha  
+_Remote | Aug 2024 - Oct 2024_
 
-## Experience
+- **Media Optimization**: Built a Marketing Mix Model (MMM) to optimize media spend, boosting ROI by 15%.
+- **OpenAI Chatbot**: Developed a chatbot using OpenAI's API, increasing customer engagement by 25% and handling 1,000+ queries weekly.
+- **Automation**: Automated media analysis workflows, saving 120+ hours per month through efficient process automation.
+- **Backend Development**: Integrated SMTP email channels into the backend using Java Spring Boot, reducing email delivery time by 30% for 5,000+ users.
 
-**Kursaha**  
-_Software Engineering Intern (AI) | Remote (Bangalore, India)_  
-_Aug 2024 - Oct 2024_
+## 🛠️ Skills & Technologies
 
-- Developed a Marketing Mix Model (MMM) to optimize media spend, increasing ROI by 15%.
-- Designed and deployed an OpenAI-powered chatbot, enhancing customer engagement by 25%.
-- Automated media analysis and chatbot training processes, reducing manual effort by 30%.
-- Enhanced notification workflows through dynamic JSON parsing, improving notification handling efficiency by 40%.
-- Integrated an SMTP channel into the backend using Java Spring Boot, enabling reliable email communication for over 5,000 users and reducing notification delivery time by 30%.
+- **Languages**: Python, Java, C, SQL
+- **Frameworks**: Flask, Django, Java Spring Boot
+- **Tools & Libraries**: PyTorch, Docker, Numpy, Pandas, Matplotlib, Jupyter Notebook, Google Colab, Git
+- **Certifications**: 
+  - *Data Science Foundations* (LinkedIn, 2023)
+  - *NLP with Python for Machine Learning* (LinkedIn, 2023)
 
-## Skills
+## 🚀 Projects
 
-- **Languages**: Python, C, Java, Git, SQL
-- **Tools/Frameworks**: Linux, Pytorch, Docker, Numpy, Pandas, Matplotlib, Jupyter Notebook, Google Colab, VS Code
-- **Web Frameworks**: Flask, Django, Java Spring Boot
+### [TaskTracker](https://github.com/starrynightishere/TaskTracker)
+A productivity app that tracks daily tasks and happiness scores, providing insightful analytics to optimize your routine. Built with Django and features user authentication for privacy.
 
-## Certifications
+### [Voting System](https://github.com/starrynightishere/Voting-System)
+A Python-based desktop application using Tkinter for fun elections, allowing users to cast votes and track results in real-time.
 
-- Data Science Foundations, LinkedIn (2023)
-- NLP with Python for Machine Learning, LinkedIn (2023)
+## 🌱 Currently Learning
 
-Feel free to connect or check out my projects for more information!
+I’m currently exploring more advanced concepts in AI and working with **Spring Boot** for backend development in Java. Always excited about opportunities that merge AI with practical, real-world applications!
 
-## Contact Me
-Feel free to reach out to me via [email](mailto:mishraanurag.pro@gmail.com).
+### Let’s Connect!
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/anurag-mishra-00724205)
+- Email: mishraanurag.pro@gmail.com
+
+ 
