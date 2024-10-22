@@ -1,5 +1,6 @@
 
 # Welcome to My GitHub Portfolio! 👋
+![My Picture](https://starrynightishere.github.io/ai-generated-8256537_1920.jpg)
 
 Hi, I'm a **Civil Engineering graduate** who has transitioned into the exciting world of **Artificial Intelligence** and **Software Engineering**. My journey reflects a passion for problem-solving, automation, and leveraging AI to tackle real-world challenges.
 
