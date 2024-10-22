@@ -25,13 +25,10 @@ _Remote | Aug 2024 - Oct 2024_
   - *Data Science Foundations* (LinkedIn, 2023)
   - *NLP with Python for Machine Learning* (LinkedIn, 2023)
 
-## Projects
+## My Projects
 
-### [TaskTracker](https://github.com/starrynightishere/TaskTracker)
-A productivity app that tracks daily tasks and happiness scores, providing insightful analytics to optimize your routine. Built with Django and features user authentication for privacy.
-
-### [Voting System](https://github.com/starrynightishere/Voting-System)
-A Python-based desktop application using Tkinter for fun elections, allowing users to cast votes and track results in real-time.
+- <i class="fas fa-rocket"></i> **Project 1** - This project is about building rockets
+- <i class="fas fa-laptop-code"></i> **Project 2** - A coding project
 
 ## Currently Learning
 
