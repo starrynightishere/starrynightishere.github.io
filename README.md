@@ -142,7 +142,6 @@
                  <p>Engineered a deep learning model using the Xception architecture to assess the aesthetic appeal of images. This project harnesses transfer learning to achieve a 78% accuracy rate, significantly reducing training times while providing insightful predictions on visual content.</p>
             </div>
         </div>
-    </div>
 
     <div class="section">
         <h2>Currently Learning</h2>
@@ -156,7 +155,6 @@
             Email: <a href="mailto:mishraanurag.pro@gmail.com">Email</a>
         </p>
     </div>
-</div>
 
 </body>
 </html>
