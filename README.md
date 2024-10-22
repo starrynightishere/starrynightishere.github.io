@@ -4,7 +4,7 @@ This is a simple site built using GitHub Pages with a beautiful theme.
 
 ## About Me
 
-I'm a software engineer with an interest in AI and machine learning.
+I'm Anurag Mishra, a software engineer with an interest in AI and machine learning.
 
 ## Projects
 
