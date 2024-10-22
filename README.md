@@ -20,11 +20,13 @@
         a {
             color: #2b8a3e;
             text-decoration: none;
-            transition: color 0.3s;
+            transition: color 0.3s, text-shadow 0.3s, transform 0.3s;
+            position: relative;
         }
         a:hover {
             color: #1f6b2c;
-            text-decoration: underline;
+            text-shadow: 0 0 5px rgba(43, 138, 62, 0.6);
+            transform: scale(1.05);
         }
         .container {
             max-width: 900px;
@@ -66,10 +68,11 @@
         .social-links a {
             margin: 0 10px;
             color: #2b8a3e;
-            transition: transform 0.3s;
+            transition: transform 0.3s, color 0.3s;
         }
         .social-links a:hover {
             transform: scale(1.1);
+            color: #1f6b2c;
         }
         @media (max-width: 600px) {
             .container {
