@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
-    <title>My GitHub Portfolio</title>
+    <title>Welcome to my Portfolio</title>
     <style>
         body {
             font-family: 'Arial', sans-serif;
@@ -89,7 +89,7 @@
 
     <div class="section">
         <h2>Education</h2>
-        <p><strong>Bachelor of Technology (B.Tech) in Civil Engineering</strong> | Jabalpur Engineering College, Jabalpur, India (May 2024)</p>
+        <p><strong>Bachelor of Technology in Civil Engineering</strong> | Jabalpur Engineering College, Jabalpur, India (May 2024)</p>
     </div>
 
     <div class="section">
