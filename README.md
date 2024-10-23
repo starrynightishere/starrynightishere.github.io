@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
-    <title>Welcome to my Portfolio</title>
+    <title>My Portfolio</title>
     <style>
         body {
             font-family: 'Arial', sans-serif;
@@ -84,7 +84,7 @@
 <body>
 
 <div class="container">
-    <h1>Welcome to My GitHub Portfolio!</h1>
+    <h1>Welcome to My Portfolio!</h1>
     <p>Hi, I'm a <strong>Civil Engineering graduate</strong> who has transitioned into the exciting world of <strong>Artificial Intelligence</strong> and <strong>Software Engineering</strong>. My journey reflects a passion for problem-solving, automation, and leveraging AI to tackle real-world challenges.</p>
 
     <div class="section">
