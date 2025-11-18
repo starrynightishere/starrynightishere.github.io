@@ -1,160 +1,205 @@
-
+<!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
-    <title>My Portfolio</title>
-    <style>
-        body {
-            font-family: 'Arial', sans-serif;
-            line-height: 1.6;
-            background-color: #f9f9f9;
-            margin: 0;
-            padding: 20px;
-            color: #333;
-        }
-        h1, h2, h3 {
-            color: #2b8a3e;
-        }
-        a {
-            color: #2b8a3e;
-            text-decoration: none;
-            transition: color 0.3s, text-shadow 0.3s, transform 0.3s;
-            position: relative;
-        }
-        a:hover {
-            color: #1f6b2c;
-            text-shadow: 0 0 5px rgba(43, 138, 62, 0.6);
-            transform: scale(1.05);
-        }
-        .container {
-            max-width: 900px;
-            margin: auto;
-            background: #fff;
-            padding: 20px;
-            border-radius: 10px;
-            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
-        }
-        .section {
-            margin-bottom: 20px;
-        }
-        .projects {
-            display: flex;
-            flex-direction: column;
-            gap: 15px;
-        }
-        .project {
-            padding: 15px;
-            border: 1px solid #eaeaea;
-            border-radius: 8px;
-            background: #f4f4f4;
-            transition: transform 0.3s, box-shadow 0.3s;
-        }
-        .project:hover {
-            transform: translateY(-5px);
-            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
-        }
-        .project i {
-            margin-right: 10px;
-            color: #2b8a3e;
-        }
-        .footer {
-            margin-top: 30px;
-            text-align: center;
-            padding-top: 10px;
-            border-top: 1px solid #eaeaea;
-        }
-        .social-links a {
-            margin: 0 10px;
-            color: #2b8a3e;
-            transition: transform 0.3s, color 0.3s;
-        }
-        .social-links a:hover {
-            transform: scale(1.1);
-            color: #1f6b2c;
-        }
-        @media (max-width: 600px) {
-            .container {
-                padding: 15px;
-            }
-        }
-    </style>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Feynman Notebook Portfolio</title>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+<style>
+    body {
+        margin: 0;
+        padding: 0;
+        font-family: "Courier New", monospace;
+        background: repeating-linear-gradient(
+            0deg,
+            #fdfdfd,
+            #fdfdfd 24px,
+            #e4f6e4 25px
+        );
+        color: #222;
+        line-height: 1.6;
+    }
+
+    .container {
+        max-width: 900px;
+        margin: 30px auto;
+        background: rgba(255, 255, 255, 0.9);
+        border: 2px solid #b8d8b8;
+        padding: 30px;
+        border-radius: 12px;
+        box-shadow: 0 0 15px rgba(0,0,0,0.07);
+        position: relative;
+    }
+
+    h1, h2, h3 {
+        font-family: "Comic Sans MS", "Marker Felt", cursive;
+        color: #2b8a3e;
+        margin-bottom: 10px;
+    }
+
+    h1 {
+        font-size: 2.2rem;
+        border-bottom: 2px dashed #75c975;
+        padding-bottom: 8px;
+    }
+
+    a {
+        color: #2b8a3e;
+        text-decoration: none;
+        border-bottom: 1px dotted #2b8a3e;
+        transition: 0.2s;
+    }
+
+    a:hover {
+        color: #1a6024;
+        text-shadow: 0 0 3px rgba(43, 138, 62, 0.4);
+    }
+
+    .section {
+        margin-bottom: 25px;
+        padding-left: 20px;
+        border-left: 3px dashed #98c998;
+        position: relative;
+    }
+
+    .section:before {
+        content: "↳";
+        position: absolute;
+        left: -15px;
+        top: 5px;
+        color: #7eba7e;
+        font-size: 20px;
+    }
+
+    .project {
+        background: #f4fff4;
+        padding: 15px;
+        border-radius: 10px;
+        border: 1px dashed #a6d4a6;
+        margin-bottom: 15px;
+        transition: 0.3s;
+    }
+
+    .project:hover {
+        transform: translateX(8px);
+        background: #edffed;
+        box-shadow: 0 0 8px rgba(0,0,0,0.1);
+    }
+
+    .project i {
+        color: #2b8a3e;
+        margin-right: 8px;
+    }
+
+    .margin-note {
+        position: absolute;
+        right: -160px;
+        width: 140px;
+        font-size: 0.8rem;
+        color: #4a7f4a;
+        opacity: 0.8;
+        font-family: "Comic Sans MS", "Marker Felt", cursive;
+    }
+
+    .footer {
+        text-align: center;
+        margin-top: 40px;
+        border-top: 2px dashed #b8d8b8;
+        padding-top: 10px;
+    }
+</style>
 </head>
+
 <body>
 
 <div class="container">
-    <h1>Welcome to My Portfolio!</h1>
-    <p>Hi, I'm a <strong>Civil Engineering graduate</strong> who has transitioned into the exciting world of <strong>Artificial Intelligence</strong> and <strong>Software Engineering</strong>. My journey reflects a passion for problem-solving, automation, and leveraging AI to tackle real-world challenges.</p>
+
+    <h1>My Notebook of Curiosity</h1>
+    <p class="margin-note" style="top: 40px;">Feynman rule: If you can't explain it simply, you don't understand it.</p>
+
+    <p>
+        Hi! I'm Anurag — a Civil Engineer who got pulled (quite willingly) into the worlds of
+        <strong>Artificial Intelligence</strong> and <strong>Software Engineering</strong>.
+        I like cracking open complicated systems, figuring out what's really going on,
+        and building things that make ideas easier to see.
+    </p>
 
     <div class="section">
         <h2>Education</h2>
-        <p><strong>Bachelor of Technology in Civil Engineering</strong> | Jabalpur Engineering College, Jabalpur, India (May 2024)</p>
+        <p><strong>B.Tech in Civil Engineering</strong> — Jabalpur Engineering College (2024)</p>
+        <p>I learned why buildings stand and bridges don't fall — turns out the same logic helps software stay upright.</p>
     </div>
 
     <div class="section">
         <h2>Work Experience</h2>
         <h3>Software Engineering Intern (AI) | Kursaha</h3>
-        <p><em>Remote | Aug 2024 - Oct 2024</em></p>
+        <p><em>Remote | Aug 2024 – Oct 2024</em></p>
+
         <ul>
-            <li><strong>Media Optimization</strong>: Built a Marketing Mix Model (MMM) to optimize media spend, boosting ROI by 15%.</li>
-            <li><strong>OpenAI Chatbot</strong>: Developed a chatbot using OpenAI's API, increasing customer engagement by 25% and handling 1,000+ queries weekly.</li>
-            <li><strong>Automation</strong>: Automated media analysis workflows, saving 120+ hours per month through efficient process automation.</li>
-            <li><strong>Backend Development</strong>: Integrated SMTP email channels into the backend using Java Spring Boot, reducing email delivery time by 30% for 5,000+ users.</li>
+            <li><strong>Media Optimization</strong>: Built models that improved ROI by 15% simply by paying attention to the data.</li>
+            <li><strong>OpenAI Chatbot</strong>: A chatbot that answered 1,000+ questions weekly. It never got tired — numbers don’t.</li>
+            <li><strong>Automation</strong>: Saved 120+ human hours/month by letting computers do the boring parts.</li>
+            <li><strong>Backend Engineering</strong>: SMTP integration in Spring Boot. Email delivery got 30% faster.</li>
         </ul>
     </div>
 
     <div class="section">
-        <h2>Skills & Technologies</h2>
-        <p><strong>Languages</strong>: Python, Java, C, SQL</p>
-        <p><strong>Frameworks</strong>: Flask, Django, Java Spring Boot</p>
-        <p><strong>Tools & Libraries</strong>: PyTorch, Docker, Numpy, Pandas, Matplotlib, Jupyter Notebook, Google Colab, Git</p>
+        <h2>Skills</h2>
+        <p><strong>Languages:</strong> Python, Java, C, SQL</p>
+        <p><strong>Frameworks:</strong> Flask, Django, Spring Boot</p>
+        <p><strong>Libraries:</strong> PyTorch, Pandas, NumPy, Matplotlib</p>
+        <p><strong>Tools:</strong> Docker, Git, Jupyter Notebook</p>
     </div>
 
     <div class="section">
         <h2>Certifications</h2>
         <ul>
-            <li><a href="https://www.linkedin.com/learning/certificates/3fde940ccc0ee674778723598d6084cba5761ab68f060784abdc5064f5caa8ea" target="_blank">Data Science Foundations</a> (LinkedIn, 2023)</li>
-            <li><a href="https://www.linkedin.com/learning/certificates/e5632bfeb792e28f56c8283ff376da2cc40e054d20d452f543d27df9460316a3" target="_blank">NLP with Python for Machine Learning</a> (LinkedIn, 2023)</li>
-            <li><a href="https://www.linkedin.com/learning/certificates/a0d42fd1e631ce67e422ed55bbc0f3382246913271a0290e51d02751ce460e61" target="_blank">Python Essential Training</a> (LinkedIn, 2023)</li>
+            <li><a href="#">Data Science Foundations</a></li>
+            <li><a href="#">NLP with Python</a></li>
+            <li><a href="#">Python Essential Training</a></li>
         </ul>
     </div>
 
     <div class="section">
-        <h2>My Projects</h2>
-        <div class="projects">
-            <div class="project">
-                <i class="fas fa-microchip"></i> <strong><a href="https://github.com/starrynightishere/Audio-Feedback-System-" target="_blank">Audio Feedback System</a></strong> 
-               <p>Designed an innovative audio feedback system that leverages Transformer models for speech recognition. This project enhances user interaction by providing real-time audio feedback, combining accuracy in transcription with engaging auditory responses.</p>
+        <h2>Projects</h2>
+
+        <div class="project">
+            <i class="fas fa-microchip"></i>
+            <strong><a href="https://github.com/starrynightishere/Audio-Feedback-System-" target="_blank">Audio Feedback System</a></strong>
+            <p>A machine that listens and talks back using Transformer models — built just to understand how they really work.</p>
         </div>
-            </div>
-            <div class="project">
-                <i class="fas fa-tasks"></i> <strong><a href="https://github.com/starrynightishere/TaskTracker" target="_blank">Task Tracker</a></strong> 
-                 <p>Created a dynamic web application that enables users to manage daily tasks effectively. By allowing users to assign happiness scores to their completed tasks, the app analyzes patterns in productivity and emotional well-being, promoting a balanced lifestyle.</p>
+
+        <div class="project">
+            <i class="fas fa-tasks"></i>
+            <strong><a href="https://github.com/starrynightishere/TaskTracker" target="_blank">Task Tracker</a></strong>
+            <p>A tool for tracking tasks and the happiness they bring. Humans are odd, but their data is fascinating.</p>
         </div>
-            </div>
-            <div class="project">
-                <i class="fas fa-vote-yea"></i> <strong><a href="https://github.com/starrynightishere/VotingSystem" target="_blank">Voting System GUI</a></strong> 
-                 <p>Developed a user-friendly voting application using Tkinter, featuring whimsical cartoon characters as candidates. The system allows for real-time participation in elections, engaging over 50 users with an intuitive graphical interface that makes voting fun.</p>
-            </div>
-            <div class="project">
-                <i class="fas fa-image"></i> <strong><a href="https://github.com/starrynightishere/beautyClassifier" target="_blank">Aesthetic Score Prediction</a></strong> 
-                 <p>Engineered a deep learning model using the Xception architecture to assess the aesthetic appeal of images. This project harnesses transfer learning to achieve a 78% accuracy rate, significantly reducing training times while providing insightful predictions on visual content.</p>
-            </div>
+
+        <div class="project">
+            <i class="fas fa-vote-yea"></i>
+            <strong><a href="https://github.com/starrynightishere/VotingSystem" target="_blank">Voting System GUI</a></strong>
+            <p>A Tkinter voting app with cartoon candidates — because serious things can still be fun.</p>
         </div>
+
+        <div class="project">
+            <i class="fas fa-image"></i>
+            <strong><a href="https://github.com/starrynightishere/beautyClassifier" target="_blank">Aesthetic Score Prediction</a></strong>
+            <p>A deep-learning model that “judges” images using Xception. Humans don’t agree on beauty anyway — so 78% accuracy is pretty good.</p>
+        </div>
+    </div>
 
     <div class="section">
         <h2>Currently Learning</h2>
-        <p>I’m currently exploring more advanced concepts in AI and working with <strong>Spring Boot</strong> for backend development in Java. I'm always excited about opportunities that merge AI with practical, real-world applications!</p>
+        <p>Digging deeper into AI and Spring Boot — and practicing the art of explaining complicated things simply. It's harder than it sounds.</p>
     </div>
 
     <div class="footer">
         <h3>Let’s Connect!</h3>
-        <p class="social-links">
-            LinkedIn: <a href="https://www.linkedin.com/in/anurag-mishra-007724205" target="_blank">LinkedIn</a><br>
-            Email: <a href="mailto:mishraanurag.pro@gmail.com">Email</a>
-        </p>
+        LinkedIn: <a href="https://www.linkedin.com/in/anurag-mishra-007724205" target="_blank">Profile</a><br>
+        Email: <a href="mailto:mishraanurag.pro@gmail.com">Send a message</a>
     </div>
 
+</div>
 </body>
 </html>
