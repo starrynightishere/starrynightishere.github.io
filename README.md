@@ -1,9 +1,9 @@
-<!DOCTYPE html>
+<html>
 <html lang="en">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Feynman Notebook Portfolio</title>
+<title>Portfolio</title>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 
 <style>
@@ -116,8 +116,6 @@
 <div class="container">
 
     <h1>My Notebook of Curiosity</h1>
-    <p class="margin-note" style="top: 40px;">Feynman rule: If you can't explain it simply, you don't understand it.</p>
-
     <p>
         Hi! I'm Anurag — a Civil Engineer who got pulled (quite willingly) into the worlds of
         <strong>Artificial Intelligence</strong> and <strong>Software Engineering</strong>.
