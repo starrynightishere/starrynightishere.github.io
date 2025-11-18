@@ -133,14 +133,23 @@
 
     <div class="section">
         <h2>Work Experience</h2>
-        <h3>Software Engineering Intern (AI) | Kursaha</h3>
-        <p><em>Remote | Aug 2024 – Oct 2024</em></p>
 
+        <h3>Software Engineer (Full-Time) | Kursaha</h3>
+        <p><em>Remote | Mar 2025 – Present</em></p>
         <ul>
-            <li><strong>Media Optimization</strong>: Built models that improved ROI by 15% simply by paying attention to the data.</li>
-            <li><strong>OpenAI Chatbot</strong>: A chatbot that answered 1,000+ questions weekly. It never got tired — numbers don’t.</li>
-            <li><strong>Automation</strong>: Saved 120+ human hours/month by letting computers do the boring parts.</li>
-            <li><strong>Backend Engineering</strong>: SMTP integration in Spring Boot. Email delivery got 30% faster.</li>
+            <li><strong>Linux Applications:</strong> Developing scalable, high-performance Linux-based applications for enterprise-grade systems.</li>
+            <li><strong>Bioinformatics Pipeline:</strong> Integrated AlphaFold2 and RFdiffusion models to predict and redesign protein structures.</li>
+            <li><strong>Backend Services:</strong> Engineered APIs and services for high-throughput computation with efficient data processing.</li>
+            <li><strong>Media Workflow Optimization:</strong> Integrated JSON parsing and data validation, reducing manual effort and improving efficiency.</li>
+        </ul>
+
+        <h3>Software Engineering Intern (AI) | Kursaha</h3>
+        <p><em>Remote | Aug 2024 – Jan 2025</em></p>
+        <ul>
+            <li><strong>Marketing Mix Model:</strong> Contributed to MMM development, improving ROI by 15%.</li>
+            <li><strong>Automation & Workflow:</strong> Streamlined media analysis and chatbot training workflows, saving 120 hours/month.</li>
+            <li><strong>OpenAI Chatbot:</strong> Built and maintained a chatbot handling 1,000+ weekly inquiries, improving customer engagement.</li>
+            <li><strong>Backend Engineering:</strong> Developed SMTP integration in Java Spring Boot for reliable email delivery to 5,000+ users.</li>
         </ul>
     </div>
 
