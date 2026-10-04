@@ -1,7 +1,5 @@
 title: Anurag Mishra
-description: "Exploring the possibilities of technology, I’m driven by curiosity to build innovative solutions that shape the future."
-remote_theme: pages-themes/time-machine@v0.2.0
-plugins:
-  - jekyll-remote-theme
-fontawesome:
-  cdn: https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css
+description: PhD researcher in Applied Mathematics at IIT Indore, with a background in AI and software engineering.
+url: https://starrynightishere.github.io
+exclude:
+  - README.md
